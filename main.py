@@ -124,7 +124,7 @@ if st.session_state.paso == 1:
     with col_c:
         st.markdown("""
             <div class="log-box">
-                > PENETRANDO EN EL SISTEMA DE ESTUDIO...<br>
+                > INTRODUCIÉNDOSE EN EL SISTEMA DE ESTUDIO...<br>
                 > FILTRANDO RUIDO BINARIO...<br>
                 > CARGUE MANUSCRITO PDF PARA EXTRACCIÓN...
             </div>
