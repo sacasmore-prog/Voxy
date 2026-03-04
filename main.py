@@ -106,7 +106,7 @@ if st.session_state.paso == 1:
     st.markdown("<br><h1 style='text-align: center; font-size: 4.5em;'>[ VOXY_MATRIX ]</h1>", unsafe_allow_html=True)
     _, col_c, _ = st.columns([1, 2, 1])
     with col_c:
-        st.markdown("""<div class="log-box">> ADENTRÄNDOSE EN EL SISTEMA DE ESTUDIO...<br>> FILTRANDO RUIDO BINARIO...<br>> CARGUE DOCUMENTO PDF PARA EXTRACCIÓN...</div>""", unsafe_allow_html=True)
+        st.markdown("""<div class="log-box">> ADENTRÁNDOSE EN EL SISTEMA DE ESTUDIO...<br>> FILTRANDO RUIDO BINARIO...<br>> CARGUE DOCUMENTO PDF PARA EXTRACCIÓN...</div>""", unsafe_allow_html=True)
         file = st.file_uploader("", type="pdf", label_visibility="collapsed")
         if file:
             st.session_state.pdf_file = file
