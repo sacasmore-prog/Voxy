@@ -106,7 +106,7 @@ if st.session_state.paso == 1:
     st.markdown("<br><h1 style='text-align: center; font-size: 4.5em;'>[ VOXY_MATRIX ]</h1>", unsafe_allow_html=True)
     _, col_c, _ = st.columns([1, 2, 1])
     with col_c:
-        st.markdown("""<div class="log-box">> PENETRANDO EN EL SISTEMA DE ESTUDIO...<br>> FILTRANDO RUIDO BINARIO...<br>> CARGUE MANUSCRITO PDF PARA EXTRACCIÓN...</div>""", unsafe_allow_html=True)
+        st.markdown("""<div class="log-box">> ADENTRÄNDOSE EN EL SISTEMA DE ESTUDIO...<br>> FILTRANDO RUIDO BINARIO...<br>> CARGUE DOCUMENTO PDF PARA EXTRACCIÓN...</div>""", unsafe_allow_html=True)
         file = st.file_uploader("", type="pdf", label_visibility="collapsed")
         if file:
             st.session_state.pdf_file = file
@@ -176,4 +176,4 @@ elif st.session_state.paso == 2:
                 for item in qa_list:
                     st.markdown(f"""<div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">{item['q']}</div><div class="flip-card-back">{item['a']}</div></div></div>""", unsafe_allow_html=True)
 
-st.markdown("<br><hr style='border-color: rgba(0, 255, 65, 0.2);'><p style='text-align: center; font-size: 0.8em; color: #00ff41;'>SARA_CASTRO // CAS_TECH // 2026</p>", unsafe_allow_html=True)
+st.markdown("<br><hr style='border-color: rgba(0, 255, 65, 0.2);'><p style='text-align: center; font-size: 0.8em; color: #00ff41;'>SARA_CASTRO // CAS_BI_PROYECT // 2026</p>", unsafe_allow_html=True)
